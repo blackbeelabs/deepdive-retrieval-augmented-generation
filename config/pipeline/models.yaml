@@ -1,0 +1,10 @@
+embed:
+  model: google/gemma-2b-it
+
+llm:
+  c: anthropic
+  model: claude-3-sonnet-20240229
+
+reranker:
+  model: BAAI/bge-reranker-large
+  n: 8
